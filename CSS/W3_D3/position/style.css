@@ -1,0 +1,36 @@
+.first {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    padding: 30px 0px;
+}
+
+.second {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.third {
+    position: absolute;
+    bottom: 0px;
+
+}
+p {
+    width: 900px;
+    margin: 0 100px;
+
+}
+.first .second .third {
+    width: 300px;
+}
+#top{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+h1 {
+    text-align: center;
+    padding: 50px 50px;
+    
+}

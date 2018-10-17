@@ -1,0 +1,60 @@
+
+div{
+    width:200px;
+    height: 200px;
+    margin-left: 200px;
+    
+}
+.first{
+    background-color: rgb(158, 8, 8);
+}
+.second{
+    background-color: rgb(255, 166, 0);
+}
+.third{
+    background-color: rgb(70, 64, 64);
+    
+}
+.first2{
+    background-color: rgb(158, 8, 8);
+    position: relative;
+   
+}
+.second2{
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.third2{
+    background-color: rgb(70, 64, 64);
+    position: relative;
+    left: 200px;
+    bottom:200px;
+}
+.first3{
+    background-color: rgb(158, 8, 8);
+    position: absolute;
+    right:0px ;
+    z-index: 2;
+}
+.second3{
+    background-color: rgb(255, 166, 0);
+    position: absolute;
+    right: 100px;
+    top:100px;
+    z-index: 1;
+   
+}
+.third3{
+    background-color: rgb(70, 64, 64);
+    position: absolute;
+    right:200px;
+    top:200px;
+    z-index: 0;
+}
+#relative {
+    width:100%;
+    position: relative;
+   margin: 0;
+}
