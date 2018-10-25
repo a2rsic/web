@@ -3,6 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    src: url(./Font/Roboto/Roboto-Bold.ttf);
+}
+
+
 .clearfix:after {
 content: "";
 clear: both;
@@ -40,6 +55,30 @@ nav li {
     color: antiquewhite;
 }
 
+header {
+    background-image: url(./images/banner3.jpg);
+    background-size: cover; 
+    text-align: center;
+    padding: 100px 20px;
+}
+header h3 { 
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+  
+}
+header a {
+    border-radius: 30px;
+    background-color:rgb(100, 165, 226);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+
 @media (min-width:768px) {
     nav {
         margin: 0;
@@ -55,7 +94,7 @@ nav li {
        border-color: white;
     }
     nav ul {
-      background: none;
+      background-color: transparent;
         float: right; 
     }
 
@@ -66,30 +105,84 @@ nav li {
    
 }
 
-header {
-    background-image: url(./images/banner3.jpg);
-    background-size: cover; 
-    text-align: center;
-    padding: 100px;
-}
-header h3 {
-    color: white;
-    padding: 20px;
-    font-size: 25px;
-}
-header a {
-    border-radius: 30px;
-    background-color:rgb(100, 165, 226);
-    color: white;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
 
-}
 @media (min-width:1200px) {
-    
+    nav li {
+        padding: 25px;
+    }
+
+    nav h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    span {
+        padding: 5px;
+    }
+
+    header h3 {
+        font-size: 50px;
+        letter-spacing: 0.1em;
+    }
+}
+
+main {
+    margin: 0px 20px;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#welcome article {
+    text-align: left;
+}
+
+section h2 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 20px 0;
+}
+
+section h2::after {
+    content: '';
+    border-bottom: 2px solid rgb(43, 41, 41);
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+article h3 {
+    color: rgb(100, 165, 226);
+    padding: 10px;
+}
+article p {
+    padding: 10px;
+}
+article li {
+    list-style-image: url(./images/arrow_bullet.png);
+    list-style-position: inside;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width:768px){
+    #welcome article:nth-of-type(2) {
+        clear: both;
+    }
+
+    #welcome article,
+    #welcome img {
+        float: left;
+        width: 50%;
+    }
      
-        
-    
+}
+
+@media (min-width:1200px) {
+    .article1 h3 {
+        float: left;
+    } 
 }
