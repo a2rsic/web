@@ -1,0 +1,12 @@
+.first, .second, .third {
+  border: 1px solid red;
+  background-color: pink;
+  width: 62.5%; }
+
+.second {
+  border-color: blue; }
+
+.third {
+  border-color: green; }
+
+/*# sourceMappingURL=main.css.map */
