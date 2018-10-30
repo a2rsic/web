@@ -1,0 +1,12 @@
+nav {
+    background-color: brown;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: lightcoral;
+}

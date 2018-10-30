@@ -1,0 +1,8 @@
+.row div p {
+    padding: 5px;
+    background-color: white;
+}
+
+.row div {
+    background-color: bisque;
+}
