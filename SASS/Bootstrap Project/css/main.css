@@ -1,0 +1,82 @@
+.textStyle, header nav, header nav a, header nav .navbar-toggler, .profile h2 {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato-Regular.ttf);
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato-Bold.ttf);
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato-Light.ttf);
+  font-weight: lighter;
+  font-style: normal; }
+* {
+  font-family: "Lato"; }
+
+header nav {
+  background-color: #2c3e50; }
+  @media (min-width: 768px) {
+    header nav a {
+      margin-left: 15%; } }
+  header nav a.navbar-brand {
+    font-size: 0.8em; }
+    @media (min-width: 1200px) {
+      header nav a.navbar-brand {
+        font-size: 2.5em;
+        margin: 0; } }
+  header nav img {
+    width: 15px; }
+  header nav .navbar-toggler {
+    font-size: 0.8em;
+    background-color: #18bc9c;
+    padding: 3px 5px; }
+    @media (min-width: 768px) {
+      header nav .navbar-toggler {
+        background-color: #2c3e50;
+        margin-right: 15%; } }
+  @media (min-width: 1200px) {
+    header nav ul {
+      margin-right: 10%; } }
+
+.profile {
+  background-color: #18bc9c; }
+  .profile h2 {
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px; }
+    @media (min-width: 768px) {
+      .profile h2 {
+        font-size: 5em;
+        margin: 0 10%; } }
+  .profile p {
+    color: white;
+    text-align: center;
+    padding: 20px 10px; }
+    @media (min-width: 768px) {
+      .profile p {
+        padding: 40px 10%;
+        font-size: 2.5em; } }
+    @media (min-width: 1200px) {
+      .profile p {
+        font-size: 2em;
+        padding-bottom: 100px; } }
+  .profile img {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    padding: 20px 0; }
+    @media (min-width: 768px) {
+      .profile img {
+        padding: 100px 0 20px 0;
+        width: 300px; } }
+
+/*# sourceMappingURL=main.css.map */
