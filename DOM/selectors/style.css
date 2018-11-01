@@ -1,0 +1,14 @@
+.first {
+    background-color: pink;
+}
+
+.second {
+   color: yellow;
+}
+
+
+.third {
+    list-style-type: none;
+    color:red;
+    background-color: blue;
+}
