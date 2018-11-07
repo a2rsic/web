@@ -1,20 +1,18 @@
 body {
     background-image: url(./images/bg.jpg);
     background-size: repeat-x;
-   /* background-color: blue;
-   /* position: relative; */
+   background-size: cover;
    height: 100vh;
-   background-position: bottom;
-  
 }
-/* 
-.cover-image {
-    background-repeat: repeat-y;
-    position: absolute;
-    bottom: 0;   
-} */
+
 .mario {
     position: absolute;
-    bottom: 70px;
+    bottom: 35px;
+    width: 100px;
+}
+
+.marioRun {
+    position: absolute;
+    bottom: 35px;
     width: 100px;
 }
